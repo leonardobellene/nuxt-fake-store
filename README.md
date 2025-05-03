@@ -89,28 +89,28 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ## Implemented Features
 
-#### Product Listing with Pagination
+#### 🛍️ Product Listing with Pagination
 Displays a paginated grid of products with dynamic data loading and responsive layout.
 
-#### Search Functionality
+#### 🔍 Search Functionality
 Users can search for products using a search bar located in the layout header. The search updates results without changing the page.
 
-#### Category Filtering
+#### 🧩 Category Filtering
 Products can be filtered by category via an expandable category panel. Categories are dynamically fetched from the API.
 
-#### Product Detail Page (PDP)
+#### 📦 Product Detail Page (PDP)
 Each product links to a detailed view with title, description, price, category, and image.
 
-#### Favorites and Recently Visited Products
+#### ⭐ Favorites and Recently Visited Products
 Users can view favorite and recently visited products, stored using Pinia and accessible through quick buttons in the header.
 
-#### State Management with Pinia
+#### 📦 State Management with Pinia
 Global state for favorites and visited items.
 
-#### Layout with Shared UI
+#### 🧱 Layout with Shared UI
 A consistent layout includes a reusable header, search bar, and category panel, shared across all pages using Nuxt’s layout system.
 
-#### Dynamic Data Fetching
+#### 🔄 Dynamic Data Fetching
 Products are fetched live from https://api.escuelajs.co, supporting category-based and query-based filtering.
 
 ## Time Report
